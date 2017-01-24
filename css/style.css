@@ -1,0 +1,156 @@
+/*
+* {
+
+	border-style: solid;
+	border-width: 1px;
+}
+'https://images6.alphacoders.com/708/708188.jpg'  HIGH RES TRUMP JUMBO
+*/
+
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url("https://initiate.alphacoders.com/images/708/cropped-1280-800-708188.jpg?2997");
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  position: relative;
+    width: 600px;
+    height: 200px;
+  color: #C00127;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  float: right;
+  margin-right: 200px;
+  margin-top: 50px;
+  padding-top: 120px;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.jumbotron h4 {
+  
+  color: #C00127;
+   position: relative;
+    width: 400px;
+    height: 200px;
+  
+  font-size: 30px;
+  float: right;
+  margin-right: 200px;
+  margin-bottom: 50px;
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+  max-height: 100%;
+    max-width: 100%;
+}
+
+#question {
+	text-align: center;
+}
+
+#poo {
+	color: red;
+}
+
+#burger {
+	color: red;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+  max-height: 100%;
+    max-width: 100%;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .col-sm-4 {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+h3 {
+	text-align: center;
+	padding-left: 500px;
+	color: blue;
+}

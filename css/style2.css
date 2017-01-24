@@ -1,24 +1,52 @@
-/* {
+ * {
 
 border-style: dotted;
 border-width: 1px;
-}*/
+}
 
 
 body {
 background-color: black;
-
 }
 
 h1 {
-
   font-family: 'Press Start 2P', cursive;
-  font-size: 38px;
   text-align: center;
-  padding: 10px;
-  margin-top: 60px;
+  padding: 20px;
+  margin-top: 50px;
   color: white;
 }
+
+h3 {
+  color: white;
+
+}
+
+.ready {
+  background-color: black;
+}
+
+#prompt {
+
+  font-family: 'VT323', monospace;
+  text-align: center;
+  font-size: 50px;
+  color: red;
+  margin-top: 75px;
+}
+
+.picture {
+
+margin-left: 310px;
+}
+
+.answers {
+
+color: white;
+
+}
+
+
 
 p {
   

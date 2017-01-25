@@ -1,12 +1,20 @@
- * {
-
+/* 
+* {
 border-style: dotted;
 border-width: 1px;
 }
+*/
 
+* {
+  background-color: black;
+}
 
 body {
-background-color: black;
+  background-color: black;
+}
+
+#banner {
+
 }
 
 h1 {
@@ -19,7 +27,6 @@ h1 {
 
 h3 {
   color: white;
-
 }
 
 .ready {
@@ -27,29 +34,31 @@ h3 {
 }
 
 #prompt {
-
   font-family: 'VT323', monospace;
   text-align: center;
   font-size: 50px;
   color: red;
+  padding-bottom: 30px;
   margin-top: 75px;
+  letter-spacing: 4px;
 }
 
 .picture {
-
-margin-left: 310px;
+  margin-left: 310px;
 }
 
-.answers {
-
-color: white;
-
+.answers li {
+  color: white;
+  font-family: 'VT323', monospace;
+  text-align: center;
+  margin-right: 300px;
+  margin-left: 250px;
+  font-size: 50px;
+  margin-top: 30px;
+  list-style: none;
 }
 
-
-
-p {
-  
+p {  
   font-family: 'VT323', monospace;
   text-align: center;
   font-size: 50px;
@@ -57,9 +66,7 @@ p {
 }
 
 .container {
-
   background-color: black;
-
 }
 
 .mainButton {

@@ -1,17 +1,19 @@
-/* {
-
+/* 
+*{
 border-style: dotted;
 border-width: 1px;
-}*/
-
+}
+*/
 
 body {
-background-color: black;
+  background-color: black;
+}
+
+#banner {
 
 }
 
 h1 {
-
   font-family: 'Press Start 2P', cursive;
   font-size: 38px;
   text-align: center;
@@ -21,7 +23,6 @@ h1 {
 }
 
 p {
-  
   font-family: 'VT323', monospace;
   text-align: center;
   font-size: 50px;
@@ -29,9 +30,7 @@ p {
 }
 
 .container {
-
   background-color: black;
-
 }
 
 .mainButton {

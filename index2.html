@@ -1,51 +1,85 @@
 <DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8"/>
-  <title>How Retro Are You?</title>
-  <link rel="stylesheet" href="css/style2.css" />
-  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Press+Start+2P|VT323" rel="stylesheet">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
 
-</head>
+    <head>
+    <meta charset="utf-8"/>
+    
+    <title>How Retro Are You?</title>
+  
+    <link rel="stylesheet" href="css/style2.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Press+Start+2P|VT323" rel="stylesheet">
+  
+    </head>
 
-<body>
+
+
+    <!-- STUFF TO ADD. Create a score tracker element, like in Harriet's, that is in a FIXED position, using CSS
+
+
+    -->
+
+    <body>
+
     <div class="container">
-      <a href="/home/baboquivari/Git%20Stuff/precourse-section-5/my-quiz/index.html"><img src="https://upload.wikimedia.org/wikipedia/it/5/57/Retro_Game_Challenge.png" height="500" width="1280"/></a>
-    <div class="top">
 
-    <div class="ready"><h1>READY PLAYER ONE!</h1> </div>
-         <script>
-            for (var i = 5000; i >= 1; i--){
-                $(".ready").fadeOut(1500).fadeIn(1500)
-            }          
-         </script>
+        <a href="/home/baboquivari/Git%20Stuff/precourse-section-5/my-quiz/index.html"><img id ="banner" src="https://upload.wikimedia.org/wikipedia/it/5/57/Retro_Game_Challenge.png" height="500" width="1280"/></a>
 
-      <h3 id="prompt">What game is this?</h3>
-    </div> 
+        <div class="top">
 
-     <div class="picture">
-      <img src="https://www.doublegames.com/images/screenshots/pacman_2_big.jpg"/>
-     </div>
+            <div class="ready"><h1>READY PLAYER ONE!</h1> </div>
 
-     <div=class"answers">  <!-- to remove bullet points see pluralsight video. or just google it. i wanna add JQUERY HERE to change colour when hovering over the items, and then to go green if correct. Then i want something to pop up from the centre of the screen, like it's jumping up right into your face and then falls back down again that says all sorts of funny shit like "Very good Padawan!" etc. -->
+                    <h3 id="prompt">What game is this?</h3>
+
+        </div> 
+
+
+        <div class="picture">
+            <img src="https://www.doublegames.com/images/screenshots/pacman_2_big.jpg"/>
+        </div>
+
+        <div class="answers">
+        
+            <ul>
+
+                <li> Pac Man </li>
+                
+                <li> Ms Pac Man</li>
+                
+                <li>Dig Dug</li>
+                
+                <li>Frogger</li>
+
+            </ul>
+
+        </div>
+
+        <div> <!-- just creating some empty space at the bottom of the page -->
+
         <ul>
-            <li> Pac Man </li>
-            <li> Ms Pac Man</li>
-            <li>Dig Dug</li>
-            <li>Frogger</li>
+
+        <li></li>
+        <li></li>
+        <li></li>
+
         </ul>
-      </div>
+
+        </div>
+
     
-
-   
-     
     
- </div>
+    </div>
 
- 
 
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
-  <script type="text/javascript" src="js/main2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+
+    <script>
+            for (var i = 5000; i >= 1; i--){
+                $(".ready").fadeOut(1000).fadeIn(1000)
+                 }          
+    </script>
+
+    <script type="text/javascript" src="js/main2.js"></script>
+
 </body>
+
 </html>

@@ -5,8 +5,6 @@ $(document).ready(function () {
 });
 
 
-
-
 $(document).ready(function() {
     $(".answers > ul > li").mouseenter(function() {
         $(this).fadeTo("fast", 0.25);
@@ -16,7 +14,6 @@ $(document).ready(function() {
         	});
 });
 // CREATES EFFECT WHEN AN ANSWER IS HOVERED OVER
-
 
 
 $(document).ready(function() {
@@ -43,7 +40,6 @@ $('.ready').each(function() {
     }, 500);
 });
 // MAKES H1 BLINK
-
 
 
 var questionsRight = 0;

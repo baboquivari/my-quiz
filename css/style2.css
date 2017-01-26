@@ -1,20 +1,10 @@
-/* 
-* {
-border-style: dotted;
-border-width: 1px;
-}
-*/
-
+ 
 * {
   background-color: black;
 }
 
 body {
   background-color: black;
-}
-
-#banner {
-
 }
 
 h1 {
@@ -44,18 +34,30 @@ h3 {
 }
 
 .picture {
-  margin-left: 310px;
+  margin-bottom: 100px;
+  position: relative;
+  left: 300px;
 }
 
+.donkey {
+  margin-bottom: 100px;
+  position: relative;
+  left: 400px;
+  }
+
 .answers li {
-  color: white;
+  color: red;
+  background-color: #01BFDC;
   font-family: 'VT323', monospace;
   text-align: center;
-  margin-right: 300px;
+  margin-right: 330px;
   margin-left: 250px;
   font-size: 50px;
   margin-top: 30px;
   list-style: none;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
 }
 
 p {  
@@ -72,5 +74,107 @@ p {
 .mainButton {
   padding-left: 330px;
   background-color: black;
+}
+
+.chosen-correct {
+  
+  background-color: #65A355;
+  border: 4px solid #000;
+  border-radius: 15px;
+  margin: 0 auto;
+  color:#fff;
+  list-style-type: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+.chosen-incorrect {
+  
+  background-color: #65A355;
+  border: 4px solid #000;
+  border-radius: 15px;
+  margin: 0 auto;
+  color:#fff;
+  list-style-type: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+.unchosen {
+  
+  background-color: #65A355;
+  border: 4px solid #000;
+  border-radius: 15px;
+  margin: 0 auto;
+  color:#fff;
+  list-style-type: none;
+  text-align: center;
+  font-size: 18px;
+} 
+
+#tryagain {
+  display: inline block;
+  width: 20%;
+  margin: 0 auto;
+  padding:10px;
+  border: 0px;
+  border-radius: 15px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 26px;
+  background-color: black;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#tryagain a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+#tryagain a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+#tryagain:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#more {
+  display: inline block;
+  width: 80%;
+  margin: 0 auto;
+  padding:10px;
+  border: 0px;
+  border-radius: 15px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 26px;
+  background-color: black;
+  margin-bottom: 100px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+#yourscore {
+  position: absolute;
+  bottom: 0px;
+  right: 30px;
+  width: 150px;
+  height: 60px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: red;
+  font-family: 'Press Start 2P', cursive;
+  position: fixed;
+}
+
+#yourscore p {
+  text-align: center;
+  font-size: 15px;
+  background-color: red;
+  line-height: 20px;
+  font-family: 'Press Start 2P', cursive;
 }
 

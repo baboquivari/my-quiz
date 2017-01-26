@@ -5,20 +5,23 @@ $(document).ready(function () {
 }); 
 // SETUP TO SEE TEST IF CONSOLE BEING LOGGED WHEN H1 IS CLICKED
 
-
-
-
-/*
-$(document).ready(function() {
-    $("h1").mouseenter(function() {
-        $("h1").fadeTo("fast", 0.25);
-    });
-    $("h1").mouseleave(function() {
-        $("h1").fadeTo("fast", 1);
-        });
+$('.mainButton').each(function() {
+    var elem = $(this);
+    setInterval(function() {
+        if (elem.css('visibility') == 'hidden') {
+            elem.css('visibility', 'visible');
+        } else {
+            elem.css('visibility', 'hidden');
+        }    
+    }, 500);
 });
-// CREATE AN EFFECT ON H1 WHEN MOUSE ENTERS AND LEAVES
-*/
+// MAKES BOTTOM IMAGE BLINK
+
+
+
+
+
+
 
 
 

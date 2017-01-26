@@ -76,41 +76,6 @@ p {
   background-color: black;
 }
 
-.chosen-correct {
-  
-  background-color: #65A355;
-  border: 4px solid #000;
-  border-radius: 15px;
-  margin: 0 auto;
-  color:#fff;
-  list-style-type: none;
-  text-align: center;
-  font-size: 18px;
-}
-
-.chosen-incorrect {
-  
-  background-color: #65A355;
-  border: 4px solid #000;
-  border-radius: 15px;
-  margin: 0 auto;
-  color:#fff;
-  list-style-type: none;
-  text-align: center;
-  font-size: 18px;
-}
-
-.unchosen {
-  
-  background-color: #65A355;
-  border: 4px solid #000;
-  border-radius: 15px;
-  margin: 0 auto;
-  color:#fff;
-  list-style-type: none;
-  text-align: center;
-  font-size: 18px;
-} 
 
 #tryagain {
   display: inline block;
@@ -134,7 +99,7 @@ p {
 
 #tryagain a:visited {
   text-decoration: none;
-  color: #fff;
+  color: blue;
 }
 
 #tryagain:hover {

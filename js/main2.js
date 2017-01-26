@@ -19,6 +19,17 @@ $(document).ready(function() {
 
 
 
+$(document).ready(function() {
+	$(".correct").click(function() {
+		$(this).css("background-color", "#47F624");
+	});
+});
+$(document).ready(function() {
+	$(".incorrect").click(function() {
+		$(this).css("background-color", "pink");
+	});
+});
+// CHANGES COLOUR ON CLICK TO INDICATE CORRECT/INCORRECT ANSWER 
 
 
 $('.ready').each(function() {
@@ -35,7 +46,6 @@ $('.ready').each(function() {
 
 
 
-
 var questionsRight = 0;
 
 document.getElementById("score").innerHTML = questionsRight;
@@ -43,6 +53,7 @@ document.getElementById("score").innerHTML = questionsRight;
 $(document).ready(function() {
 
 	$(".correct").click(function(){
+
 	$(this).removeClass("answer correct");
 	$(this).addClass("chosen-correct");
 	$(this).siblings().removeClass("answer");
@@ -56,9 +67,6 @@ $(document).ready(function() {
 		document.getElementById("score").innerHTML = questionsRight;
 
 	});
-
-
-
 
 
 	$(".incorrect").click(function(){
